@@ -3,9 +3,12 @@
 **Problem Statement**
 In this project we have to design the Chord Protocol functionality as discussed in the section 4 of this paper: https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf
 
-Input: The input provided (as command line to Rakshit_Sharma_P2P) will be of the form:
+**To Run**
+Download the files and from the root directly launch cmd, and run 'ponyc'. It will generate an object file.
 
-./Rakshit_Sharma_P2P numNodes  numRequests
+Input: The input provided (as command line to P2P_Chord_Protocol) will be of the form:
+
+./P2P_Chord_Protocol numNodes  numRequests
 
 Where numNodesis the number of peers to be created in the peer-to-peer system and numRequests is the number of requests each peer has to make.  When all peers performed that many requests, the program can exit.  Each peer should send a request/second.
 
