@@ -19,13 +19,3 @@ In my submitted code there are three actors - Main, ChordSupervisor and Node. Th
 For generating random keys I am using the RandomNumberGenerator package that I have built using the builtin Random.pony package to get more random values, as builtin function only provides 0 as output.
 The ChordSupervisor keeps tracks of hops submitted by individual nodes via messagesand increment the value. There is a checkChange behavior to check continuously if the value of total hops have not changed for sometime. That means our communication process has completed and we can show the average hops taken by chord.
 The node actor has lookup function to find key from its successors. Implementation is based on the paper mentioned above, using the finger table approach.
-
-**Sample Output**
-![alt text](<Screenshot from 2024-10-28 22-35-22.png>) 
-![alt text](<Screenshot from 2024-10-28 22-35-38.png>) 
-![alt text](<Screenshot from 2024-10-28 22-36-42.png>)
-
-**Max Problem Solved**
-./Rakshit_Sharma_P2P 100000 5
-
-![alt text](maxSolvable.png)
