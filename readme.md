@@ -1,7 +1,4 @@
-**Project 3 - Chord Protocol P2P**
 
-Submitted By: Rakshit Sharma
-UFID: 30167954
 
 **Problem Statement**
 In this project we have to design the Chord Protocol functionality as discussed in the section 4 of this paper: https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf
